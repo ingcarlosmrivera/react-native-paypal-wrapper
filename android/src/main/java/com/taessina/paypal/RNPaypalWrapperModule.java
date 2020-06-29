@@ -168,7 +168,7 @@ public class RNPaypalWrapperModule extends ReactContextBaseJavaModule implements
         PayPalPayment.PAYMENT_INTENT_SALE
       );
 
-    payment.enablePayPalShippingAddressesRetrieval(true);
+    //payment.enablePayPalShippingAddressesRetrieval(true);
 
     Intent intent = new Intent(reactContext, PaymentActivity.class);
 
